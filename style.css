@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Monserrat', sans-serif;
+    color: rgba(0, 0, 0, 0.87);
+    background-color: #ffffff;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+section {
+  margin-bottom: 85px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    padding: 0 100px;
+    margin: 0 auto;
+}
