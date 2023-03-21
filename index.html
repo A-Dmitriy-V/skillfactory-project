@@ -15,16 +15,166 @@
   </head>
 
   <body>
-    <div class="container">
-      <h1>Разработано 2000+ приложений</h1>
+    <div class="app" id="app">
+      <header class="app__header header">
+        <div class ="header__container container">
+        <a href="/" class="header__logo">
+          <img src="assets/logo.svg" alt="SYSTEM"
+          width="190" height="32"
+          class="header__logo" />
+        </a>
 
-      <h2>Hading 2</h2>
+        <nav class="header__menu">
+          <ul class="header__menu-list">
+            <li class="header__menu-item">
+              <a href="#app" class="header__menu-link">
+                Домой
+              </a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#features" class="header__menu-link">
+                Особенности
+              </a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#benefits" class="header__menu-link">
+                Приемущества
+              </a>
+            </li>
+          </ul>
+        </nav>
+        </div>
+      </header>
 
-      <p>paragraph</p>
+      <main class="app__main">
+        <section class="hero">
+          <div class="hero__container container">
+            <div class="hero__content">
+              <figure class="hero__figure">
+                <img src="assets/hero_1.jpg" alt="Разработано 2000+ приложений" class="hero__image" />
+              </figure>
 
-      <b>Bold</b>
+              <div class="hero__text">
+                <h1 class="hero__title">
+                  Разработано 2000+ приложений
+                </h1>
 
-      <i>Italic</i>
+                <div class="hero__subtitle">
+                  Для вашего удобства мы разработали множество приложений 
+                  для вашего бизнеса и команды, которые доступны 
+                  в любое время суток
+                </div>
+
+                <button class="hero__button">
+                  Присоединяйтесь
+                </button>
+              </div>
+            </div>
+            <div class="hero__dots">
+              <span class="hero__dot active"></span>
+              <span class="hero__dot"></span>
+              <span class="hero__dot"></span>
+            </div>
+          </div>
+        </section>
+
+        <section class="feutures" id="feutures">
+          <div class="features__container container">
+            <div class="features__list">
+              <div class="features__item">
+                <img src="assets/check.svg" alt="check"
+                width="44" height="44"
+                class="features__item-icon">
+
+                <div class="features__item-content">
+                  <h3 class="features__item-title">
+                    Для бизнеса
+                  </h3>
+
+                  <p class="features__item-caption">
+                    Создаем кастомизированные программы и сервисы
+                    для развития управленческих команд в российских и
+                    международных компаниях
+                  </p>
+                </div>
+              </div>
+
+              <div class="features__item">
+                <img src="assets/check.svg" alt="check"
+                width="44" height="44"
+                class="features__item-icon">
+
+                <div class="features__item-content">
+                  <h3 class="features__item-title">
+                    Для колл-центров
+                  </h3>
+
+                  <p class="features__item-caption">
+                    Помогаем руководителям и командам колл-центров создать полный цикл по поддержке клиентов и
+                    организовать контроль качества
+                  </p>
+                </div>
+              </div>
+
+              <div class="features__item">
+                <img src="assets/check.svg" alt="check"
+                width="44" height="44"
+                class="features__item-icon">
+
+                <div class="features__item-content">
+                  <h3 class="features__item-title">
+                    Облачные хранилища
+                  </h3>
+
+                  <p class="features__item-caption">
+                    Разрабатываем локальные защищенные
+                    корпоративные хранилища, а также осуществляем
+                    поддержку на протяжении всего времени
+                    пользования
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="benefits" id="benefits">
+          <div class="benefits__container container">
+            <h2 class="benefits__title">
+              Приемущества
+            </h2>
+
+            <div class="benefits__list"></div>
+          </div>
+        </section>
+
+
+
+      </main>
+
+      <footer class="app__footer footer">
+        <div class="footer__conteiner container">
+          <div class="footer__copyright">
+            2000-2022 © System
+          </div>
+          <a href="/" class="header__logo">
+            <img src="assets/social=facebook.svg" alt="FACEBOOK"
+            width="50" height="50"
+            class="footer__social" />
+          </a>
+          <a href="/" class="header__logo">
+            <img src="assets/social=twitter.svg" alt="TWITTER"
+            width="50" height="50"
+            class="footer__social" />
+          </a>
+          <a href="/" class="header__logo">
+            <img src="assets/social=instagram.svg" alt="INSTAGRAM"
+            width="50" height="50"
+            class="footer__social" />
+          </a>
+        </div>
+      </footer>
     </div>
+    <script type="text/javascript"></script>
   </body>
 </html>
